@@ -1,9 +1,29 @@
-
+*{
+margin:0;
+padding:0;
+}
 .menu{
  background-color:#FEF2EF;
  color:#311211;
  font-weight:bold;
+ padding-bottom:10px;
     
+}
+.menu-principal{
+display:inline;
+text-align:right;
+}
+.menu-principal li{
+display:inline;
+margin:10px;
+
+}
+.menu-principal li a{
+color:#311211;
+text-decoration:none;
+}
+.menu-principal li a:hover{
+color:#F23358;
 }
 .logo-principal{
 width:48px;
