@@ -1,1 +1,16 @@
-body{font-family:Arial;background:#f2f2f2;padding-top:40px;text-align:center;}
+
+.menu{
+ background-color:#FEF2EF;
+ color:#311211;
+ font-weight:bold;
+    
+}
+.logo-principal{
+width:48px;
+height:48px;
+text-align:left;
+}
+
+.botones{
+ background-color:#F23358
+}
