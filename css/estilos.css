@@ -3,14 +3,23 @@ margin:0;
 padding:0;
 }
 .menu{
+  display:flex;
  background-color:#FEF2EF;
  color:#311211;
  font-weight:bold;
- padding-bottom:10px;
+ padding:10px;
+ justify-content:space-between;
+ align-items:center;
     
 }
+.logo-descripcion{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-size:20px;
+}
 .menu-principal{
-display:inline;
+
 text-align:right;
 }
 .menu-principal li{
@@ -23,7 +32,10 @@ color:#311211;
 text-decoration:none;
 }
 .menu-principal li a:hover{
-color:#F23358;
+color:#f8f3f4;
+padding:5px;
+background-color:#F23358;
+border-radius:5px;
 }
 .logo-principal{
 width:48px;
