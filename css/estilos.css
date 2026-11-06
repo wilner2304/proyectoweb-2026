@@ -52,10 +52,9 @@ text-align:left;
  background-color:#F23358
 }
 .contenido-principal{
-    display:flex;
-    justify-content:space-between;
-    padding:50px 0 50px 50px;
+    
 }
+
 .contenedor h1{
     width:60%;
     font-size:50px;
@@ -74,4 +73,10 @@ text-align:left;
     border-radius:30px;
     text-align:center;
     margin-top:30px;
+}
+.contenedor-imagen-principal{
+    display:flex;
+    justify-content:space-between;
+    padding:50px 0 50px 50px;
+    background-color:#f3cdd4;
 }
