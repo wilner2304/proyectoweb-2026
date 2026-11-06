@@ -81,3 +81,18 @@ text-align:left;
     text-align:center;
     padding:30px 0 30px 0;
 }
+.contenedor-productos{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.botones-secundarios{
+    width:30%;
+    color:#f8f3f4;
+    background-color:#F23358;
+    padding:10px;
+    border-radius:20px;
+    text-align:center;
+    margin-top:30px;
+}
